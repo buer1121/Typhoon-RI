@@ -4,8 +4,8 @@ import torchvision.datasets
 from model_gmm import GMM
 from tqdm import tqdm
 from multiprocessing import Process
-
-# 导入数据
+    
+# 导入数据shi 
 cifar10 = torchvision.datasets.CIFAR10(
     root='datasets',
     train=True,
